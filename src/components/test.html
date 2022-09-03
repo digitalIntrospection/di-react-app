@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="#">
+    <script>
+        const img = document.querySelector('img');
+        // fetch('https://api.giphy.com/v1/gifs/translate?api_key=W0RHTQVGh8xJqzKJNTsbr7iidbCF0TDn&s=brown', { mode: 'cors' })
+        //     .then(function (response) {
+        //         return response.json();
+        //     })
+        //     .then(function (response) {
+        //         img.src = response.data.images.original.url;
+        //     });
+
+
+
+        async function GetData() {
+            const response = await fetch('http://digital-introspection.local/wp-json/wp/v2/pages', { mode: 'cors' });
+            const data = await response.json();
+            // console.log(response);
+            // console.log(data);
+            const title = data[0].title.rendered;
+            // console.log(title);
+            // const content = data[0].content.rendered;
+            console.log(data[0]._embedded['wp:featuredmedia']['0'].source_url);
+            console.log(data[0]._embedded['wp:featuredmedia']['0'].media_details.sizes.full.source_url);
+
+
+            // console.log(data[1].title.rendered);
+            // console.log(data[1].content.rendered);
+            return title
+        }
+        GetData();
+
+    </script>
+</body>
+
+</html>
