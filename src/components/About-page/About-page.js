@@ -4,7 +4,7 @@ import Our_Commitment from './Our-Commitment';
 import Our_approach from './Our-approach';
 import Our_App from './Our-App';
 import Our_Team from './Our-Team';
-import Footer from '../Footer.js';
+import Footer from '../Footer/Footer.js';
 
 
 

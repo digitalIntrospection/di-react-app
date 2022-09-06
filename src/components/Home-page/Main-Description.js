@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import ButtonComponent from '../Button';
+import ButtonComponent from '../Button-two';
 
 
 class Main_Description extends Component {

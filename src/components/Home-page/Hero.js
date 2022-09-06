@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import ButtonComponent from '../Button';
+import ButtonComponent from '../Button-two';
 
 // import '../images/hero-image.png';
 // import 'hero-image' from './images/hero-image.png'''

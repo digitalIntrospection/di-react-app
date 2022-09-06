@@ -1,45 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;700&display=swap');
-
-.App {
-  /* text-align: center; */
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
   font-family: 'Source Serif Pro', serif;
-  /* background-color: red; */
-
+}
+.App {
+  font-family: 'Source Serif Pro', serif;
 }
 .hero-container{
-  height:704px;
-  width: auto;
+  /* height:704px; */
+  width: 100vw;
   background-color: #F5EFE7;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding:70px 0px 48px 0;
+  border: 2px solid red;
 }
 
 .hero-homepage{
-  width: 1064.52px;
-  height: 391px;
-  left: 188px;
-  margin-top: 149px;
+  /* width: 1064.52px; */
+  width:80vw;
+  border: 2px solid blue;
+
+  /* height: 391px; */
+  /* left: 188px; */
+  /* margin-top: 84px; */
   /* margin-bottom: 164px; */
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   }
   
 .hero-left{
-    width: 572.75px;
-    height:344px;
+    /* width: 572.75px; */
+    width:40vw;
+    border: 2px solid green;
+
+    /* height:344px; */
     margin-top:47px;
   }
 
 .hero-header{
-  height: 116px;
+  /* height: 116px; */
   font-weight: 700;
   font-size: 46.1279px;
   line-height: 58px;
   letter-spacing: 0.1em;
 }
 .hero-description{
-  width: 525.67px;
+  /* width: 525.67px; */
+  width:40vw;
+
   height: 72px;
   font-weight: 300;
   font-size: 19.22px;
@@ -56,7 +69,12 @@
   height: 52.68px;
   background-color: #1A4548;
   color: white;
+/*   
+  font-family: 'Inter';
   font-weight: 700;
+  font-size: 13.6517px;
+  line-height: 17px;
+  letter-spacing: 0.1em; */
 }
 
 .btn-formatting{
@@ -155,9 +173,11 @@
   margin-top:14px;
 }
 
-.benfits-container{
-  height: 656px;
+.benefits-container{
+  /* height: 656px; */
+  width:100vw;
   background-color: #F5EFE7;
+  padding-bottom:107px;
 }
 
 .benefits-header{
@@ -171,6 +191,9 @@
 .three-divs{
   display: flex;
   justify-content: space-evenly;
+width:100vw;
+display: flex;
+flex-wrap: wrap;
 }
 .column-container{
   width: 363px;
@@ -200,23 +223,23 @@
   line-height: 25px;
 }
 
-.footer-container{
+/* .footer-container{
   width: 1440px;
   height: 315px;
   background: #1A4548;
-}
+} */
 
 
 
 /* about page */
 .about-container-page{
   width: 1440px;
-  height: 2500px;
+  /* height: 2500px; */
   /* border: 2px solid red; */
   background-color: #F5EFE7;
 }
 .our-container-page{
-  height: 1776px;
+  /* height: 1776px; */
   /* border: 2px solid green; */
   display: flex;
   justify-content: center;
@@ -230,7 +253,7 @@
 
 .commitment-container{
   height: 461.53px;
-  margin-top: 167px;
+  margin-top: 80px;
   display:flex;
   justify-content: space-between;
 }
@@ -293,23 +316,43 @@
 }
 
 .our-team-container{
-  height: 414px;
+  /* height: 1000px; */
+  width:100vw;
   background-color: white;
   display: flex;
   flex-direction:column;
+  padding-bottom:102px;
+
 
   /* justify-content: center;  */
-  /* align-items: center; */
+  align-items: center;
 }
 
 .team-container{
-  width: 1000px;
+  /* width: 1000px; */
+  width:70vw;
   height: 197px;
   /* border: 2px solid red; */
-  margin-left:222px;
+  /* margin-left:222px; */
   display: flex; 
   justify-content: space-between; 
   align-items: center;
+
+}
+
+@media screen and (max-width: 960px) {
+  .team-container{
+    display:flex;
+    flex-direction: column;
+    padding-bottom:850px;
+
+    /* height: 197px; */
+    /* margin-bottom:100px; */
+  }
+  .person-container{
+    margin-top:50px;
+  }
+
 }
 
 .person-img{
@@ -337,7 +380,7 @@
 
 .program-container{
   /* height: 1902px; */
-  width:auto;
+  width:100vw;
   background: #FFFFFF;
   /* border: 2px solid blue; */
   /* flex-direction:column;  */
@@ -350,7 +393,7 @@
   line-height: 48px;
   letter-spacing: 0.1em;
   text-transform: capitalize;
-  margin-top:162px;
+  margin-top:96px;
   margin-left:210px;
   width: 1065px;
   text-align: center;
@@ -372,6 +415,8 @@ text-align: center;
 
 .pink{
   color: #F50057;
+  font-family: 'Inter';
+
 
 }
 
@@ -448,6 +493,7 @@ margin-bottom:28px;
   align-items: center;
   height: 388px;
 background: #F5EFE7;
+text-align:center;
 
 }
 .cta-one{
@@ -464,6 +510,7 @@ margin-top:112px;
 font-weight: 700;
 font-size: 32px;
 line-height: 39px;
+width:90vw;
 
 letter-spacing: 0.1em;
 text-transform: capitalize;

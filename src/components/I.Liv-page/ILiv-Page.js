@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import ButtonComponent from '../Button';
-import Footer from '../Footer';
+import ButtonComponent from '../Button-two';
+import Footer from '../Footer/Footer';
 
 class I_Liv_Page extends Component {
     constructor(props) {

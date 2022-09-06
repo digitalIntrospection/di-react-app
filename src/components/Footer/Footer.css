@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@300;400;700&display=swap');
+
+.footer-container{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+
+    gap:63px;
+
+        width: 100vw;
+        /* height: 315px; */
+        background: #1A4548;
+    padding: 49px 0 ;
+      
+}
+.title-container{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.1em;
+    color: white;
+    text-decoration: none;
+}
+.tabs-container{
+    display:flex;
+    flex-direction:row;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    gap:78px;
+    /* text-decoration: none; */
+    
+}
+
+.social-media-container-icons{
+    display: flex;
+    /* flex-direction:row; */
+    gap:37px;
+
+}
+.footer-hover:hover{
+    color:rgba(255, 255, 255, 0.639);
+    transition: all ease-in-out 0.15s;
+}
+.tabs-About{
+    text-decoration: none;
+    color:white;
+}
+
+.tabs-I-Liv{
+    text-decoration: none;
+    color:white;
+}
+.tabs-Sign-Up{
+    text-decoration: none;
+    color:white;
+}
+ 
+.tabs-Sign-Up{
+    text-decoration: none;
+    color:white;
+}
+@media screen and (max-width: 961px) {
+.tabs-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+}
+

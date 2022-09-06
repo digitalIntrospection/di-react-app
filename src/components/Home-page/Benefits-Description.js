@@ -32,8 +32,7 @@ class Benefits_Description extends Component {
             return <div>Loading...</div>;
 
         return (
-            <div className='benfits-container'>
-
+            <div className='benefits-container'>
 
                 <div className="benefits-header">Reap long term benefits</div>
                 <div className="three-divs">
