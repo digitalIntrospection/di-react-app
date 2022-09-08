@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../../App.css';
 import ButtonComponent from '../Button-two';
+import { Link } from 'react-router-dom'
+
 
 
 class Main_Description extends Component {
@@ -33,7 +35,7 @@ class Main_Description extends Component {
         if (!isLoaded)
             return <div>Loading...</div>;
         return (
-            <div className="content-container">
+            <div id='scroll' className="content-container">
                 <div className="description-one-container">
 
                     <div >
@@ -63,8 +65,12 @@ class Main_Description extends Component {
                             We offer a digital, app-based personal development and productivity program by leading members via a self-paced digital ‘playbook’ for Intentional Living, supporting them as adapt and adopt daily practices in only 5-15 mins/day. We help women set their rhythm in life, so that it becomes EASY to get the HARD things DONE.
                         </div>
                         <div className="btn-formatting">
-                            <ButtonComponent text="I.Liv." />
-                            <ButtonComponent text="Sign Up" />
+                            <Link className='btn-redirect' to='/I.Liv.'>\
+                                <ButtonComponent text="I.Liv." />
+                            </Link>
+                            <Link className='btn-redirect' to='/Sign-Up'>\
+                                <ButtonComponent text="Sign Up" />
+                            </Link>
                         </div>
                     </div>
 

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../../App.css';
+import { Link } from 'react-router-dom'
+
 
 
 class Our_App extends Component {
@@ -42,8 +44,10 @@ class Our_App extends Component {
                         time for your priorities. This is why we offer a simple digital platform to help
                         you feel accomplished – whatever that means for you!
                     </div>
-                    <div className="our-app-cta">
-                        <p>See More On Our app</p>
+                    <div >
+                        <Link className='btn-redirect' to='/Sign-Up'>
+                            <p className='our-app-cta'>See More On Our app</p>
+                        </Link>
                     </div>
                 </div>
 

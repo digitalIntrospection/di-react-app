@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../../App.css';
 import ButtonComponent from '../Button-two';
 import Footer from '../Footer/Footer';
+import { Link } from 'react-router-dom'
+
 
 class I_Liv_Page extends Component {
     constructor(props) {
@@ -75,7 +77,10 @@ class I_Liv_Page extends Component {
                 <div className="sign-up-cta">
                     <div className="cta-one">Sounds Interesting?</div>
                     <div className="cta-two">Take control of your Life</div>
-                    <ButtonComponent text="Sign Up"></ButtonComponent>
+
+                    <Link className='btn-redirect' to='/Sign-Up'>
+                        <ButtonComponent text="Sign Up"></ButtonComponent>
+                    </Link>
 
 
                 </div>

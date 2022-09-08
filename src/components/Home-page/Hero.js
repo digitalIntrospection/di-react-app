@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import '../../App.css';
 import ButtonComponent from '../Button-two';
 // import renderHTML from 'react-render-html';
+import { BsArrowDownCircleFill } from 'react-icons/bs';
+import { IconContext } from "react-icons";
+import ScrollTo from "react-scroll-into-view";
+import { Link } from 'react-router-dom'
 
-
-
-// import '../images/hero-image.png';
-// import 'hero-image' from './images/hero-image.png'''
 
 class Hero extends Component {
     constructor(props) {
@@ -60,8 +60,14 @@ class Hero extends Component {
                         </div>
 
                         <div className="btn-formatting">
-                            <ButtonComponent text="Learn More" />
-                            <ButtonComponent text="Sign Up" />
+
+                            <Link className='btn-redirect' to='/About'>
+                                <ButtonComponent text="Learn More" />
+                            </Link>
+
+                            <Link className='btn-redirect' to='/Sign-Up'>
+                                <ButtonComponent text="Sign Up" />
+                            </Link>
                         </div>
                     </div>
 
@@ -70,7 +76,13 @@ class Hero extends Component {
                     </div>
 
                 </div>
-                <div className="round-button">^</div>
+                <ScrollTo selector={`#scroll`} smooth={`#smooth`}>
+                    <IconContext.Provider value={{ color: "#1A4548", className: "round-button" }}>
+                        <div>
+                            <BsArrowDownCircleFill />
+                        </div>
+                    </IconContext.Provider>
+                </ScrollTo>
             </div>
 
         );
