@@ -45,8 +45,14 @@ class I_Liv_Page extends Component {
                             <div className="img-one"><img src={items[4]._embedded['wp:featuredmedia']['0'].source_url}></img></div>
 
                             <div>
-                                <div className="header-one">Habit 1</div>
-                                <div className="text-one">Its important because - Facing increasing levels of burnout (42% of women report increased levels of burnout, vs 32% in 2020)</div>
+                                <div className="header-one">Mind Habits</div>
+                                <div className="text-one">
+                                    As women, we understand how hard it can be to prioritize our
+                                    mental well-being. Taking proper care of your mind is integral
+                                    to intentional living. And it is one of the primary skills you
+                                    will take away from our program!
+
+                                </div>
                             </div>
 
 
@@ -55,8 +61,12 @@ class I_Liv_Page extends Component {
                             <div className="img-one"><img src={items[4]._embedded['wp:featuredmedia']['0'].source_url}></img></div>
 
                             <div>
-                                <div className="header-one">Habit 2</div>
-                                <div className="text-one">Its important because - Facing increasing levels of burnout (42% of women report increased levels of burnout, vs 32% in 2020)</div>
+                                <div className="header-one">Body Habits</div>
+                                <div className="text-one">
+                                    Including practices to support a healthy body are essential to a well-rounded lifestyle.
+                                    We will provide you with all the necessary tools and skills to do so. That way, you can
+                                    start your journey towards achieving the most fulfilling version of your life!
+                                </div>
                             </div>
                         </div>
                     </div>

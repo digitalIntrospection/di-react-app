@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import '../../App.css';
 import ButtonComponent from '../Button-two';
+// import renderHTML from 'react-render-html';
+
+
 
 // import '../images/hero-image.png';
 // import 'hero-image' from './images/hero-image.png'''
@@ -12,6 +15,9 @@ class Hero extends Component {
             items: [],
             isLoaded: false
         }
+        const { onPaste } = props
+
+
     }
     componentDidMount() {
 
@@ -26,6 +32,7 @@ class Hero extends Component {
                 console.log(err);
             });
     }
+
     render() {
 
         const { isLoaded, items } = this.state;
@@ -44,8 +51,12 @@ class Hero extends Component {
                             <div className="hero-header">{items[3].title.rendered}</div>
                         </div>
                         <div align="left" className="hero-description">
-                            {/* {items[3].excerpt.rendered} */}
-                            <p>We empower professional women to live with intention without sacrificing their personal, work or economic wellbeing.</p>
+                            <p>
+                                We empower professional women to live with intention without sacrificing
+                                their personal, work or economic wellbeing.
+                            </p>
+                            {/* <p>{renderHTML(items[3].content.rendered)})</p> */}
+
                         </div>
 
                         <div className="btn-formatting">

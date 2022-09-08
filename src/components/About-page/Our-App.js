@@ -36,7 +36,11 @@ class Our_App extends Component {
                 <div className="text-container">
                     <div className="small-header">Our App</div>
                     <div className="big-header">We Empower Professional Women</div>
-                    <div className="commitment-description">In today’s challenging times, living a fulfilled and balanced life can feel impossible, especially for women juggling many priorities in their personal/work life. At Digital Introspection (DI), we empower professional women to live with intention without sacrificing their personal, work or economic wellbeing.
+                    <div className="commitment-description">
+                        Designed for optimal daily use, our app provides an easy method of setting and
+                        tracking your goals on the go. We understand how challenging it can be to find
+                        time for your priorities. This is why we offer a simple digital platform to help
+                        you feel accomplished – whatever that means for you!
                     </div>
                     <div className="our-app-cta">
                         <p>See More On Our app</p>

@@ -5,12 +5,13 @@ import About from './components/About-page/About-page.js';
 import I_Liv_Page from './components/I.Liv-page/ILiv-Page.js';
 import Sign_Up_Page from './components/Sign-up-page/Sign-Up-Page.js';
 import Navbar from './components/Navbar';
-// import renderHTML from 'react-render-html';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router >
+      <ScrollToTop />
       <Navbar />
       {/* <Homepage>s</Homepage> */}
       <Routes>

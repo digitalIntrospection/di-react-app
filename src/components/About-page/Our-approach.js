@@ -39,7 +39,14 @@ class Our_approach extends Component {
                 <div className="text-container">
                     <div className="small-header">Our Approach</div>
                     <div className="big-header">We Empower Professional Women</div>
-                    <div className="commitment-description">In today’s challenging times, living a fulfilled and balanced life can feel impossible, especially for women juggling many priorities in their personal/work life. At Digital Introspection (DI), we empower professional women to live with intention without sacrificing their personal, work or economic wellbeing.
+                    <div className="commitment-description">
+                        Based on 5 principle courses, Digital Introspection can help you learn and
+                        integrate the key ingredients to a fulfilling, successful lifestyle. This
+                        includes a personalized 12-week program using tools to help you set daily goals,
+                        track your progress, incorporate fundamental habits, and rewire your brain to start
+                        living intentionally. How can you start living your best life? We offer a user-friendly
+                        app with all the tools you will need to embark on your journey towards self-improvement.
+                        By committing just 5-15 minutes a day, taking control of your life has never been simpler!
                     </div>
                 </div>
 

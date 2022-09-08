@@ -42,7 +42,11 @@ class Benefits_Description extends Component {
                             <div className="benefit-one">
                                 <div className="">{items[6].title.rendered}</div>
                             </div>
-                            <div className="benefit-description">In today’s challenging times, living a fulfilled and balanced life can feel impossible, especially for women juggling many priorities in their personal/work life.</div>
+                            <div className="benefit-description">
+                                As a woman juggling the many aspects of life, it can become impossible to consider
+                                your mental well-being. We understand this struggle and want to teach you how to
+                                properly care for your mind through our guided mindset training program
+                            </div>
                         </div>
                     </div>
 
@@ -52,7 +56,12 @@ class Benefits_Description extends Component {
                             <div className="benefit-one">
                                 <div className="">{items[5].title.rendered}</div>
                             </div>
-                            <div className="benefit-description">In today’s challenging times, living a fulfilled and balanced life can feel impossible, especially for women juggling many priorities in their personal/work life.</div>
+                            <div className="benefit-description">
+                                Taking care of your body may seem like an obvious priority. However, as a woman,
+                                it can often be challenging to find the time to take care of your physical health.
+                                We will provide the support you need to incorporate these essential habits into your busy
+                                schedule in a realistic and manageable way.
+                            </div>
                         </div>
                     </div>
 
@@ -62,7 +71,13 @@ class Benefits_Description extends Component {
                             <div className="benefit-one">
                                 <div className="">{items[4].title.rendered}</div>
                             </div>
-                            <div className="benefit-description">In today’s challenging times, living a fulfilled and balanced life can feel impossible, especially for women juggling many priorities in their personal/work life.</div>
+                            <div className="benefit-description">
+                                Our guided program and mindset training provides you with all the tools you will need
+                                to set yourself up for success. We will help you integrate wellness practices into your
+                                daily routine so that your lifestyle becomes one that allows you to thrive both personally
+                                and professionally!
+                            </div>
+
                         </div>
                     </div>
 

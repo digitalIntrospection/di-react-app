@@ -36,7 +36,13 @@ class Our_Commitment extends Component {
                 <div className="text-container">
                     <div className="small-header">Our Commitment</div>
                     <div className="big-header">We Empower Professional Women</div>
-                    <div className="commitment-description">In today’s challenging times, living a fulfilled and balanced life can feel impossible, especially for women juggling many priorities in their personal/work life. At Digital Introspection (DI), we empower professional women to live with intention without sacrificing their personal, work or economic wellbeing.
+                    <div className="commitment-description">
+                        Our goal is to support and guide you to be successful in all areas
+                        of your life. Whether learning how to manage your daily work tasks
+                        or taking a few moments to prioritize your health, we want to help you
+                        achieve your ideal intentional lifestyle. We strive to empower all women
+                        to stop settling and start taking control of their lives to become their
+                        best selves.
                     </div>
                 </div>
 

@@ -29,11 +29,11 @@ function Footer() {
                 <div className='tabs-Sign-Up footer-hover'>Privacy Policy</div>
 
             </div>
-            <div className='social-media-container-icons'>
+            {/* <div className='social-media-container-icons'>
                 <FaInstagram className='footer-hover' size={25} />
                 <FaFacebookF className='footer-hover' size={25} />
 
-            </div>
+            </div> */}
 
         </div>
     )

@@ -16,13 +16,13 @@
   flex-direction: column;
   align-items: center;
   padding:70px 0px 48px 0;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .hero-homepage{
   /* width: 1064.52px; */
   width:80vw;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 
   /* height: 391px; */
   /* left: 188px; */
@@ -36,7 +36,7 @@
 .hero-left{
     /* width: 572.75px; */
     width:40vw;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 
     /* height:344px; */
     margin-top:47px;
@@ -197,7 +197,7 @@ flex-wrap: wrap;
 }
 .column-container{
   width: 363px;
-  height: 349px;
+  /* height: 349px; */
   display: flex;
 
   align-items: center;
@@ -254,6 +254,7 @@ flex-wrap: wrap;
 .commitment-container{
   height: 461.53px;
   margin-top: 80px;
+  margin-bottom: 80px;
   display:flex;
   justify-content: space-between;
 }
@@ -290,7 +291,7 @@ flex-wrap: wrap;
   font-size: 20px;
   line-height: 25px;
   color: #333333;
-  width: 461px;
+  /* width: 461px; */
 
 
 }
@@ -299,10 +300,12 @@ flex-wrap: wrap;
 }
 
 .approach-container{
-  margin-top:81.47px;
+  margin-top:80px;
+  margin-bottom:80px;
   height: 405px;
   display:flex;
   justify-content: space-between;
+
 }
 
 .our-app-cta{
