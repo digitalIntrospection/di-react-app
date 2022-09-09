@@ -3,6 +3,7 @@ import '../../App.css';
 import ButtonComponent from '../Button-two';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom'
+import Navbar from '../Navbar';
 
 
 class I_Liv_Page extends Component {
@@ -38,6 +39,8 @@ class I_Liv_Page extends Component {
 
         return (
             <div className="program-container">
+                <Navbar />
+
                 <div className="program-header"> <span className="pink">{this.pink_var}</span> is The all in one approach to improve Your personal wellbeing and productivity</div>
                 <div className="program-description">Combining the power of Artificial Intelligence and Machine Learning with the wisdom of member community to generate insights and program content</div>
                 <div className="phone-contaner">

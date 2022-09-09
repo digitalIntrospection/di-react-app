@@ -77,7 +77,7 @@ class Hero extends Component {
 
                 </div>
                 <ScrollTo selector={`#scroll`} smooth={`#smooth`}>
-                    <IconContext.Provider value={{ color: "#1A4548", className: "round-button" }}>
+                    <IconContext.Provider value={{ className: "round-button" }}>
                         <div>
                             <BsArrowDownCircleFill />
                         </div>

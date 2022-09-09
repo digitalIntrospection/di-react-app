@@ -8,6 +8,9 @@
 .App {
   font-family: 'Source Serif Pro', serif;
 }
+.home-wrapper{
+  background-color: #F5EFE7;
+}
 .hero-container{
   /* height:704px; */
   width: 100vw;
@@ -111,14 +114,17 @@
   width: 43px;
   height: 43px;
   margin-top: 73px;
-  color: white;
+  color: #1A4548;
+  background-color:white;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .content-container{
   gap:182.37px;
   border-top: 25px white solid;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
+  background-color: white;
 }
 .description-one-container{
   width: 1022px;
@@ -528,7 +534,7 @@ margin-bottom:38px;
 .sign-up-page-container{
   height: 1024px;
   background: #F5EFE7;
-  border: 2px solid blue;
+  border: 2px solid #F5EFE7;
 
 
 }
@@ -540,9 +546,9 @@ margin-bottom:38px;
 .wrapper{
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   width: 989px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 142px auto;
 }
 
@@ -567,4 +573,19 @@ margin-bottom:38px;
   text-decoration: none;
   color: white;
 
+}
+
+.contact-wrapper{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Inter';
+  margin-top:50px;
+
+}
+
+.info-wrapper{
+  /* display:flex; */
+  /* align-items: center; */
+  /* justify-content:center; */
 }

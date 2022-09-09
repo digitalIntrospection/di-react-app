@@ -12,7 +12,7 @@ function App() {
   return (
     <Router >
       <ScrollToTop />
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Homepage>s</Homepage> */}
       <Routes>
         <Route path='/' element={<Homepage />} />

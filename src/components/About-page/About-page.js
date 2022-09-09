@@ -5,8 +5,7 @@ import Our_approach from './Our-approach';
 import Our_App from './Our-App';
 import Our_Team from './Our-Team';
 import Footer from '../Footer/Footer.js';
-
-
+import Navbar from '../Navbar';
 
 class About extends Component {
     constructor(props) {
@@ -17,6 +16,7 @@ class About extends Component {
     render() {
         return (
             <div className="about-container-page">
+                <Navbar />
                 <div className="our-container-page">
                     <Our_Commitment></Our_Commitment>
                     <Our_approach></Our_approach>

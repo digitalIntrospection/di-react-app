@@ -45,7 +45,7 @@ class Our_App extends Component {
                         you feel accomplished – whatever that means for you!
                     </div>
                     <div >
-                        <Link className='btn-redirect' to='/Sign-Up'>
+                        <Link className='btn-redirect' to='/I.Liv.'>
                             <p className='our-app-cta'>See More On Our app</p>
                         </Link>
                     </div>

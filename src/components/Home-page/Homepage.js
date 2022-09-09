@@ -4,10 +4,13 @@ import Hero from './Hero.js';
 import Main_Description from './Main-Description.js';
 import Benefits_Description from './Benefits-Description.js';
 import Footer from '../Footer/Footer';
+import Navbar from '../Navbar';
+
 
 function Homepage() {
     return (
-        <div>
+        <div className='home-wrapper'>
+            <Navbar />
             <Hero></Hero>
             <Main_Description></Main_Description>
             <Benefits_Description></Benefits_Description>

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import ButtonComponent from '../Button-two';
+// import ButtonComponent from '../Button-two';
 import Footer from '../Footer/Footer';
+import Navbar from '../Navbar';
+
 
 class Sign_Up_Page extends Component {
     constructor(props) {
@@ -34,31 +36,39 @@ class Sign_Up_Page extends Component {
 
         return (
             <div className="sign-up-page-container">
+                <Navbar />
+
                 <div className="sign-up-container">
                     <div className="wrapper">
 
 
-                        <div className="input-div">
+                        <div className="input-div  info-wrapper">
 
                             <div className="input-header">We’ll Help You Achieve Your Goals</div>
-                            <div className="input-boxes">
+                            <div className='contact-wrapper'>
+                                <p>Contact us at</p>
+                                <p>
+                                    info@digitalintrospection.io
+                                </p>
+                            </div>
+                            {/* <div className="input-boxes">
                                 <form className="input-boxes" onSubmit={this.handleSubmit}>
-                                    <label>
-                                        {/* Name: */}
+                                    <label> */}
+                            {/* Name: */}
 
-                                        <input type="text" value={this.state.value} onChange={this.handleChange} />
+                            {/* <input type="text" value={this.state.value} onChange={this.handleChange} />
                                     </label>
-                                    <label>
-                                        {/* Name: */}
-                                        <input type="text" value={this.state.value} onChange={this.handleChange} />
+                        <label> */}
+                            {/* Name: */}
+                            {/* <input type="text" value={this.state.value} onChange={this.handleChange} />
                                     </label>
-                                    <label>
-                                        {/* Name: */}
-                                        <input type="text" value={this.state.value} onChange={this.handleChange} />
+                                    <label> */}
+                            {/* Name: */}
+                            {/* <input type="text" value={this.state.value} onChange={this.handleChange} />
                                     </label>
                                     <input type="submit" value="Submit" />
                                 </form>
-                            </div>
+                            </div> */}
                             {/* <ButtonComponent text="Sign Up"></ButtonComponent> */}
                         </div>
                         <div className="input-div-img">
