@@ -29,7 +29,7 @@ class Our_approach extends Component {
 
 
         if (!isLoaded)
-            return <div>Loading...</div>;
+            return <div></div>;
 
         return (
             <div className="approach-container">

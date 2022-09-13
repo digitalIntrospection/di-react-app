@@ -29,7 +29,7 @@ class Benefits_Description extends Component {
 
 
         if (!isLoaded)
-            return <div>Loading...</div>;
+            return <div></div>;
 
         return (
             <div className='benefits-container'>

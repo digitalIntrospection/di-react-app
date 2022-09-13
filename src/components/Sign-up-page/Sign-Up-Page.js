@@ -3,6 +3,7 @@ import '../../App.css';
 // import ButtonComponent from '../Button-two';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar';
+import { motion } from 'framer-motion';
 
 
 class Sign_Up_Page extends Component {
@@ -32,10 +33,14 @@ class Sign_Up_Page extends Component {
 
 
         if (!isLoaded)
-            return <div>Loading...</div>;
+            return <div></div>;
 
         return (
-            <div className="sign-up-page-container">
+            <motion.div className="sign-up-page-container"
+                initial={{ opacity: 0, transition: { duration: 0.1 } }}
+                animate={{ opacity: 1, transition: { duration: 0.3 } }}
+                exit={{ opacity: 0, transition: { duration: 0.2 } }}
+            >
                 <Navbar />
 
                 <div className="sign-up-container">
@@ -77,7 +82,7 @@ class Sign_Up_Page extends Component {
                     </div>
                 </div>
                 <Footer></Footer>
-            </div >
+            </motion.div >
 
         );
     }

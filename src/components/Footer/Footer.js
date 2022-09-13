@@ -26,7 +26,7 @@ function Footer() {
                 <div>
                     <Link className='tabs-Sign-Up footer-hover' to='/Sign-Up'>Sign Up</Link>
                 </div>
-                <div className='tabs-Sign-Up footer-hover'>Privacy Policy</div>
+                {/* <div className='tabs-Sign-Up footer-hover'>Privacy Policy</div> */}
 
             </div>
             {/* <div className='social-media-container-icons'>

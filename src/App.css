@@ -441,6 +441,12 @@ text-align: center;
   margin: 49px auto;
 
 }
+.phone-image{
+  width:350px; /* you can use % */
+  height: auto;
+  margin-top:40px;
+}
+
 .text-container{
   display: flex;
   /* align-items:center; */

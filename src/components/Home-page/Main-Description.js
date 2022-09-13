@@ -33,7 +33,7 @@ class Main_Description extends Component {
 
 
         if (!isLoaded)
-            return <div>Loading...</div>;
+            return <div></div>;
         return (
             <div id='scroll' className="content-container">
                 <div className="description-one-container">

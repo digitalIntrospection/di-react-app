@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import '../../App.css';
+
 
 
 class Our_Commitment extends Component {
@@ -29,22 +30,25 @@ class Our_Commitment extends Component {
 
 
         if (!isLoaded)
-            return <div>Loading...</div>;
+            return <div></div>;
 
         return (
+
             <div className="commitment-container">
-                <div className="text-container">
-                    <div className="small-header">Our Commitment</div>
-                    <div className="big-header">We Empower Professional Women</div>
-                    <div className="commitment-description">
-                        Our goal is to support and guide you to be successful in all areas
-                        of your life. Whether learning how to manage your daily work tasks
-                        or taking a few moments to prioritize your health, we want to help you
-                        achieve your ideal intentional lifestyle. We strive to empower all women
-                        to stop settling and start taking control of their lives to become their
-                        best selves.
+                <Suspense fallback={<h1>kamilllllllll'</h1>}>
+                    <div className="text-container">
+                        <div className="small-header">Our Commitment</div>
+                        <div className="big-header">We Empower Professional Women</div>
+                        <div className="commitment-description">
+                            Our goal is to support and guide you to be successful in all areas
+                            of your life. Whether learning how to manage your daily work tasks
+                            or taking a few moments to prioritize your health, we want to help you
+                            achieve your ideal intentional lifestyle. We strive to empower all women
+                            to stop settling and start taking control of their lives to become their
+                            best selves.
+                        </div>
                     </div>
-                </div>
+                </Suspense>
 
                 <div className="commitment-img" >
                     <img src={items[1]._embedded['wp:featuredmedia']['0'].source_url}></img>
